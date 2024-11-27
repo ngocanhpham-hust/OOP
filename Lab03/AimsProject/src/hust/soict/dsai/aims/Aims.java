@@ -18,13 +18,5 @@ public class Aims {
         anOrder.removeDigitalVideoDisc(dvd3);
         System.out.println("Total cost is: ");
         System.out.println(anOrder.totalCost());
-        
-        
-        /*anOrder.addDigitalVideoDisc(dvd4);
-        anOrder.removeDigitalVideoDisc(dvd3);
-        System.out.println("Total cost is: ");
-        System.out.println(anOrder.totalCost());
-        DigitalVideoDisc dvd4 = new DigitalVideoDisc("Morbius",
-                "Science Fiction", 39.99f);*/
     }
 }
