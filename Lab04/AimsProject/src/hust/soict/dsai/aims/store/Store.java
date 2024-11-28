@@ -36,4 +36,21 @@ public class Store {
 		System.out.println("********************************************************");
 		return;
 		}
+    
+	return itemsInStore;
+	}
+	public void setItemsInStore(List<Media> itemsInStore) {
+		this.itemsInStore = itemsInStore;
+	}
+	
+	public Media searchByTitle(String title) {
+        for (int i = 0; i < itemsInStore.size(); i++) {
+            if (itemsInStore.get(i).getTitle().equals(title)) {
+                
+                return itemsInStore.get(i);
+            }
+        }
+        System.out.println("No match found!");
+        return null;
+	}
 }
